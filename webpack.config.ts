@@ -8,7 +8,7 @@ interface ENV {
     mode: 'development' | 'production';
 }
 
-export default (env: ENV): Configuration => {
+export default (env: ENV): DevServerConfiguration & Configuration => {
 
     const isDev = env.mode === 'development';
 
