@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "jsx":"react-jsx",
+        "outDir": "./build/",
+        "noImplicitAny": true,
+        "module": "ES6",
+        "target": "ES6",
+        "allowJs": true,
+        "moduleResolution": "node",
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS",
+        }
+    }
+}
