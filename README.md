@@ -34,8 +34,9 @@ _ Если используете реакт_
 
 #  Для установки лоудеров  #
 ```
-    npm install --save-dev ts-loader // ts-loader по-умолчанию обрабатывает tsx файлы
+    npm install --save-dev ts-loader 
 ```
+// ts-loader по-умолчанию обрабатывает tsx файлы
 ```
     npm install --save-dev babel-loader
 ```
