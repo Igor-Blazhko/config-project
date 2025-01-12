@@ -2,27 +2,27 @@
 
 ## Для инициализации webpack ## 
 
-# _ Запустите следующие команды _ #
+# Запустите следующие команды  #
 ```
     npm install --save-dev webpack wepback-cli webpack-dev-server
 ```
 
-# _ Чтобы добавить ts в ваш проект необходимо устновить _# 
-# -typescript
-# -типы для использования,
-# -лоудеры для WebPack 
-# -настроить tsconfig.json
+#  Чтобы добавить ts в ваш проект необходимо установить # 
+-typescript
+-типы для использования,
+-лоудеры для WebPack 
+-настроить tsconfig.json
 
-# _ Лоудеры :_ #
+#  Лоудеры : #
  - ts-loader
  - babel-loader _ (Так же необходимо будет настроить babel.config.mjs для использования) _
 
-# _ Для установки typescript _ #
+# Для установки typescript  #
 ```
     npm install --save-dev typescript ts-node
 ```
 
-# _ Для установки типов для использования _ #
+#  Для установки типов для использования  #
 ```
     npm install --save-dev @types/webpack @types/webpack-dev-server
 
@@ -32,7 +32,7 @@ _ Если используете реакт_
     npm install --save-dev @types/react @types/react-dom
 ```
 
-# _ Для установки лоудеров _ #
+#  Для установки лоудеров  #
 ```
     npm install --save-dev ts-loader // ts-loader по-умолчанию обрабатывает tsx файлы
 ```
@@ -50,7 +50,7 @@ _ Если используете реакт_
     }
 ```
 
-# _ Базовая настройка tsconfig.json _ #
+#  Базовая настройка tsconfig.json  #
 ```
     {
         compilerOptions: {
@@ -71,7 +71,7 @@ _ Если используете реакт_
     }
 ```
 
-# _ Для обработки Scss/Sass/Css файлов необходимо установить соответвующие лоудеры _ #
+#  Для обработки Scss/Sass/Css файлов необходимо установить соответвующие лоудеры  #
 ```
     npm install --save-dev sass-loader css-loader style-loader
 ```
@@ -82,7 +82,7 @@ _ Если используете реакт_
 ```
     npm init @eslint/config@latest
 ```
-_ Команда создаст файл конфигурации линтера eslint.config.mjs _
+ Команда создаст файл конфигурации линтера eslint.config.mjs 
 Дополним файл следующими правилами
 ```
     {
@@ -95,7 +95,7 @@ _ Команда создаст файл конфигурации линтера
 
 ## Husky - инструмент(Git hook), которые позволяет запускать команды до создания коммита  ##
 
-# _ Для его устнановки _ #
+  Для его установки  
 ```
     npx husky init
     npm install line-staged 
